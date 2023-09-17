@@ -2,8 +2,13 @@
   "profiles": {
     "functions": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7272",
-      "launchBrowser": false
+      "commandLineArgs": "--port 7272"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 34816,
+      "useSSL": false
     }
   }
 }
